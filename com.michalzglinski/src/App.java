@@ -31,10 +31,15 @@ public class App {
         int nr = 2;
         if(nr==2){
             System.out.println("Liczba to 2 ");
-        }else{
+        }else if (nr=3{
             System.out.println("Liczba to 3 ");
         }else{
             System.out.println("Jakaś inna liczba niż 3 i 2 ");
+        }
+            
+  
+
+
 
 
 
@@ -44,7 +49,7 @@ public class App {
 
 
 
-    scanner.close();
+    
 
     System.out.println("Wpisz pierwszą liczbę");
       int a = scanner.nextInt();
@@ -67,13 +72,13 @@ public class App {
 
 
     scanner.close();
-  }
-}
+  
 
 
-    
 
     
+
+    
     
 
-}
+
