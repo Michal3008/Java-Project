@@ -45,4 +45,35 @@ public class App {
 
 
     scanner.close();
+
+    System.out.println("Wpisz pierwszą liczbę");
+      int a = scanner.nextInt();
+
+      System.out.println("Podaj operator + lub -");
+      scanner.nextLine();
+      String o = scanner.nextLine();
+
+      System.out.println("Wpisz drugą liczbę");
+      int b = scanner.nextInt();
+
+      if(o.equals("+")){
+        System.out.println(a+" + "+b+" = "+(a+b));
+      }else if(o.equals("-")){
+        System.out.println(a+" + "+b+" = "+(a-b));
+      }else{
+        System.out.println("Podałeś zły operator");
+      }
+
+
+
+    scanner.close();
+  }
+}
+
+
+    
+
+    
+    
+
 }
