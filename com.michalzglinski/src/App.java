@@ -35,8 +35,8 @@ public class App {
             System.out.println("Liczba to 3 ");
         }else{
             System.out.println("Jakaś inna liczba niż 3 i 2 ");
-        }
-    }
+        
+    
             
   
 
@@ -73,6 +73,8 @@ public class App {
 
 
     scanner.close();
+        }
+    }
   
 
 
