@@ -75,6 +75,56 @@ public class App {
     scanner.close();
         }
     }
+
+    String o = "+"
+switch(o){
+    System.out.println("PLUS");
+    break;
+    case "=";
+    System.out.println("MINUS");
+    break;
+    case "*";
+    System.out.println("RAZY");
+    break;
+    default
+    System.out.println("CO INNEGO");
+
+}
+
+
+
+
+        
+}
+
+
+switch(x)
+{
+  case "+":
+    System.out.println("wynik to: " +(a+b));
+    break;
+  case "-":
+    System.out.println("wynik to: " +(a-b));
+    break;
+  case "*":
+    System.out.println("wynik to: " +(a*b));
+    break;
+  case "/":
+    System.out.println("wynik to: " +(a/b));
+    break;
+  case "%":
+    System.out.println("wynik to: " +(a%b));
+    break;
+
+  default:
+    System.out.println("Podales zly operator");
+
+
+}
+
+scanner.close();
+}
+}
   
 
 
