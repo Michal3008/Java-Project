@@ -32,17 +32,10 @@ public class App {
         }
         */
     
-        System.out.println("Wpisz pierwszą liczbę");
-        int a = scanner.nextInt();
-
-        System.out.println("Podaj operator + * / - %");
-        scanner.nextLine();
-        String o = scanner.nextLine();
-
-        System.out.println("Wpisz drugą liczbę");
-        int b = scanner.nextInt();
+        
 
       /* KALKULATOR IF
+
       if(o.equals("+")){
         System.out.println(a+" + "+b+" = "+(a+b));
       }else if(o.equals("-")){
@@ -51,27 +44,10 @@ public class App {
         System.out.println("Podałeś zły operator");
       }
       //*/
+    
         
-      
-        switch(o){
-          case "+":
-            System.out.println("wynik to: " +(a+b));
-            break;
-          case "-":
-            System.out.println("wynik to: " +(a-b));
-            break;
-          case "*":
-            System.out.println("wynik to: " +(a*b));
-            break;
-          case "/":
-            System.out.println("wynik to: " +(a/b));
-            break;
-          case "%":
-            System.out.println("wynik to: " +(a%b));
-            break;
-          default:
-            System.out.println("Podales zly operator");
-        }
+     
+        
 
       
     
