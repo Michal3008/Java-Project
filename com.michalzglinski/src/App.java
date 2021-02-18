@@ -72,7 +72,7 @@ public class App {
       
 
 
-
+/*
 String[][] dane = {
   {"Więcej niż jedno zwierzę","stado","klucz","dwa","owca","lama"},
   {"Sporty na s","sztafeta","skok o tyczce", "skoki narciarskie", "sumo", "szachy"}
@@ -101,15 +101,81 @@ for(int i = 0; i < dane.length; i++){
 }      
 
 System.out.println("Twój wynik to "+wynik);
-scanner.close();
+
 }
 }
+/*/
 
 
 
-    
 
-    
-    
+        
+
+      
+int szansa = 1;
+int randomNum = (int) (Math.random() * 101 ) + 1;
+
+System.out.println("wymyśliłem jedną liczbe naturalna 1-100. Jaka to liczba?");
+
+ while(szansa < 6)
+ {
+  
+  
+  int odp = scanner.nextInt();
+  szansa ++;
+  if(odp == randomNum)
+  {
+    System.out.println("Brawo! Zgadles!");
+  }
+  else if(odp < randomNum)
+  {
+    System.out.println("Myślałem nad wiekszą liczbą");
+  }
+  else if(odp > randomNum)
+  {
+    System.out.println("Myślałem nad mniejszą liczbą");
+  }
+
+  if(szansa == 6 && odp != randomNum)
+  {
+    System.out.println("Niestety nie udało ci sie :(");
+  }
+  
+
+  if(odp == randomNum)
+  {
+    break;
+  }
+ }
 
 
+ 
+
+
+
+
+
+
+
+
+
+
+
+      
+        
+      
+
+
+
+
+
+
+
+
+
+      
+        
+      
+        
+    } 
+}
