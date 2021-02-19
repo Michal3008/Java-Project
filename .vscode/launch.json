@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Frame",
+            "request": "launch",
+            "mainClass": "Frame",
+            "projectName": "Java Project_17ed6eae"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"

@@ -148,34 +148,39 @@ System.out.println("wymyśliłem jedną liczbe naturalna 1-100. Jaka to liczba?"
   }
  }
 
+//*
+ Scanner scanner = new Scanner(System.in);
+    System.out.println("Napisz nazwę województwa aby poznać jego stolicę: ");
+    System.out.println(city(scanner.nextLine()));
+    scanner.close();
+  }
+  static String city( String userWoj ){
+    String[][] arr = {
+      {"Slask","Katowice"},
+      {"Wielkopolska","Poznań"},
+      {"Malopolska","Kraków"},
+      {"Mazowieckie","Warszawa"},
+      {"Lodzkie", "Łódź"}
+    };
+    String output = "Nie znaleźliśmy takiego województwa.";
+    int i = 0;
+    while( i < arr.length ){
+      if(arr[i][0].equals(userWoj)){
+        output = "Stolicą województwa "+arr[i][0]+" jest "+arr[i][1];
+        break;
+      }
+      i++;
+    }
+    return output;
+  }
+}
 
- 
 
+NewClass nc0bj = new NewClass ();
+    System.out.println(nc0bj);
+    NewClass ncObj = new NewClass(); 
 
+    System.out.println(ncObj.name+" to "+ncObj.race+", który ma "+ncObj.age+" lat" );
 
-
-
-
-
-
-
-
-
-      
-        
-      
-
-
-
-
-
-
-
-
-
-      
-        
-      
-        
-    } 
+  }
 }
